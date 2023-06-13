@@ -1,0 +1,148 @@
+/*nav styling*/
+nav {
+  background-color: #d6a6cf;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-display {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px;
+  padding: 0 50px;
+  box-shadow: #1996f5;
+}
+
+.nav-title>h1 {
+  font-size: 3em;
+  margin: 0;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+li>a {
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-facebook-square {
+  color: navy;
+}
+
+.fa-twitter {
+  color: #1996f5;
+}
+
+nav li {
+  margin-top: 10px;
+  display: inline;
+}
+
+/*Addition of margin between submission form and header*/
+
+main {
+  margin-top: 50px;
+  display: flex;
+  font-size: 15px;
+}
+
+
+.chicAdvisorText {
+  width: 30%;
+  margin: 0px 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 4px solid blueviolet;
+  background-color: lavender;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+h1 {
+  color: #21caae;
+}
+
+.chicAdvisorForm {
+  width: 70%;
+}
+
+form {
+  max-width: 75vw;
+  /* 75% of the viewport width */
+  max-width: 200mm;
+  /* Maximum width of 210mm */
+  margin: 0 auto;
+  border: 4px solid blueviolet;
+  background-color: lavender;
+  padding: 50px;
+  border-radius: 4px;
+  align-content: center;
+}
+
+.form-container {
+  display: block;
+}
+
+.form-box {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button*/
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-color: rgb(196, 176, 220);
+  color: blueviolet;
+  border: blueviolet;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: lavenderblush;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

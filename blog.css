@@ -1,0 +1,117 @@
+/*nav styling*/
+nav {
+  background-color: #d6a6cf;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-display {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px;
+  padding: 0 50px;
+  box-shadow: #1996f5;
+}
+
+.nav-title>h1 {
+  font-size: 3em;
+  margin: 0;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+}
+
+li>a {
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-facebook-square {
+  color: navy;
+}
+
+.fa-twitter {
+  color: #1996f5;
+}
+
+nav li {
+  margin-top: 10px;
+  display: inline;
+}
+
+/*blog styling*/
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column {
+  background-color: white;
+}
+
+.left {
+  width: 30%;
+}
+
+.middle {
+  width: 30%;
+}
+
+.right {
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  color: #21caae;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.dearDariaPost {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d6a6cf;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-article {
+  background-color: #F6BA6F;
+}
+
+.blog-article h2 {
+  color: azure;
+}

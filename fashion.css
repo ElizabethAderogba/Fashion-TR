@@ -1,0 +1,168 @@
+/*nav styling*/
+nav {
+  background-color: #d6a6cf;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-display {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px;
+  padding: 0 50px;
+  box-shadow: #1996f5;
+}
+
+.nav-title>h1 {
+  font-size: 3em;
+  margin: 0;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+li>a {
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-facebook-square {
+  color: navy;
+}
+
+.fa-twitter {
+  color: #1996f5;
+}
+
+nav li {
+  margin-top: 10px;
+  display: inline;
+}
+
+/* general styling */
+
+header {
+  background-color: #CDF0EA;
+  color: #fff;
+  padding: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/*description*/
+
+.fashion-fun-style {
+  padding: 50px;
+  text-align: center;
+  text-decoration: double;
+  background-color: #f9f9f9;
+}
+
+.fashion-fun-style h2 {
+  font-size: 32px;
+  color: purple;
+  margin-bottom: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.fashion-fun-style .description {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.blog-page {
+  background-color: #FFEBEB;
+  padding: 50px;
+  text-align: center;
+}
+
+.blog-page h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #21caae;
+}
+
+.blog-post {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #F6BA6F;
+}
+
+.blog-post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.blog-post h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.blog-post a {
+  background-color: #ff00ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.blog-post a:hover {
+  background-color: #e600e6;
+}
+
+/*fashion blog posts*/
+h2 {
+  color: purple;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.fashionBlogPost {
+  padding: 20px;
+  background-color: #FFEBEB;
+  border: 2px solid #ccc;
+}
+
+.fashionBlogPost>img {
+  display: flex;
+  margin: auto;
+}

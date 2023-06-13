@@ -1,0 +1,160 @@
+/*nav styling*/
+nav {
+  background-color: #d6a6cf;
+  font-size: 18px;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-display {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px;
+  padding: 0 50px;
+  box-shadow: #1996f5;
+}
+
+.nav-title>h1 {
+  font-size: 3em;
+  margin: 0;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+}
+
+li>a {
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  color: purple;
+}
+
+.fa-facebook-square {
+  color: navy;
+}
+
+.fa-twitter {
+  color: #1996f5;
+}
+
+nav li {
+  margin-top: 10px;
+  display: inline;
+}
+
+/*image reel*/
+
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.welcomeMessage {
+  font-size: 85%;
+
+}
+
+.carousel-item>img {
+  object-fit: cover;
+}
+
+/*images on index*/
+
+.image-container {
+  display: flex;
+  padding: 10px;
+  ;
+  justify-content: space-evenly;
+}
+
+.image-container img {
+  width: 20%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 30px
+}
+
+/* general styling */
+
+header {
+  background-color: #CDF0EA;
+  color: #fff;
+  padding: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+/*sample blog articles*/
+
+.chic-advisor {
+  background-color: #f9f9f9;
+  padding: 50px;
+  text-align: center;
+}
+
+.chic-advisor h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.advisor-card {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.advisor-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.advisor-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.advisor-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.advisor-card a {
+  background-color: lavender;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.advisor-card a:hover {
+  background-color: #e600e6;
+  color: #fff;
+}
