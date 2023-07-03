@@ -83,7 +83,8 @@ h4 {
   width: 20%;
   padding: 5px;
   box-sizing: border-box;
-  border-radius: 30px
+  border-radius: 30px;
+  object-fit: cover;
 }
 
 /* general styling */
@@ -131,6 +132,7 @@ main {
 .advisor-card img {
   width: 100%;
   margin-bottom: 10px;
+  height: 258px;
 }
 
 .advisor-card h3 {
@@ -143,6 +145,7 @@ main {
   font-size: 16px;
   color: #666;
   margin-bottom: 20px;
+  height: 70px;
 }
 
 .advisor-card a {
